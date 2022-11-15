@@ -5,18 +5,6 @@
     android:layout_height="match_parent">
 
 
-    <com.airbnb.lottie.LottieAnimationView
-        android:id="@+id/animationView"
-        android:layout_width="match_parent"
-        android:layout_height="300dp"
-        android:layout_marginHorizontal="16dp"
-        android:layout_marginTop="16dp"
-        app:layout_constraintTop_toTopOf="parent"
-        app:lottie_rawRes="@raw/task_one"
-        app:lottie_autoPlay="true"
-        app:lottie_loop="true"
-        />
-
     <androidx.viewpager2.widget.ViewPager2
         android:id="@+id/vp_on_boarding"
         android:layout_width="match_parent"
